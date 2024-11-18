@@ -6,28 +6,30 @@
 }
 
 .navbar .logo{
-    width: 100px;
+    width: 80px;
 }
 
 .navbar-menu{
     display: flex;
     list-style: none;
     gap: 20px;
-    color: #45927b;
+    color: #49557e;
     font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .navbar-right{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;   
 }
 
 .navbar button{
     background: transparent;
     font-size: 16px;
     color: #49557e;
-    border: 1px solid #45927b;
+    border: 1px solid #49557e;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -35,24 +37,28 @@
 }
 
 .navbar button:hover{
-    background-color: hsl(189, 82%, 53%);  
+    background-color: hsl(140, 65%, 55%);  
 }
 
 .navbar .active{
     padding-bottom: 2px;
-    border-bottom: 2px solid #49557e;
+    border-bottom: 2px solid hsl(140, 65%, 55%);
 }
 
 .navbar li{
     cursor: pointer;
 }
 
+.navbar-search-icon{
+    position: relative;
+}
+
 .navbar-search-icon .dot{
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: hsl(189, 82%, 53%);
+    background-color: hsl(140, 65%, 55%);
     border-radius: 5px;
     top: -8px;
     right: -8px;
-}
+} 
