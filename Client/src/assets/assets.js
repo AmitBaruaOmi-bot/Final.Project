@@ -2,16 +2,29 @@ import logo from './knock-knock-high-resolution-logo-transparent.png'
 import search from './search_icon.png'
 import basket from './basket_icon.png'
 import header_background from './header_image.png'
+import likes from './likes.png'
 
 import menu_two from './cattwo.png'
 import menu_three from './catthree.png'
 import menu_five from './catfive.png'
 
+import CS from './CS.jpg'
+import CSW from './CSW.jpg'
+import PM from './PM.jpg'
+import PP from './PP.jpg'
+import PV from './PV.jpg'
+import FC from './FC.jpg'
+import FF from './FF.jpg'
+import CB from './CB.jpg'
+
+
+
 export const assets = {
     logo,
     search,
     basket,
-    header_background
+    header_background,
+    likes
 }
 
 export const menu_items = [
@@ -33,3 +46,85 @@ export const menu_items = [
 
 
 ]
+
+export const food_list = [
+    {
+        _id: 1,
+        name: "Ceaser Salad",
+        category: "Salad",
+        image: CS,
+        price:  3.99,
+        descriptions: "Lettuce and greens mixed with bread crumbs and salad ranch"
+    },
+    {
+        _id: 2,
+        name: "Chicken Sandwich",
+        category: "Meal",
+        image: CSW,
+        price_individual: 4.99,
+        price_menu: 7.99,
+        descriptions_individual: "Bread with chicken crumbles, tomato, lettuce and mayonese",
+        descriptions_menu: "Individual + Fries and drinks"
+    },
+    {
+        _id: 3,
+        name: "Pizza Margarita",
+        category: "Pizza",
+        image: PM,
+        price_regular: 5.99,
+        price_medium: 7.99,
+        price_large: 11.99,
+        descriptions: "Freshly baked pizza with self raising flour dough, mozzarella cheese, gorgonzola cheese, tomato sauce and fresh herbs at the end"
+    },
+    {
+        _id: 4,
+        name: "Pizza Peperoni",
+        category: "Pizza",
+        image: PP,
+        price_regular: 5.99,
+        price_medium: 7.99,
+        price_large: 11.99,
+        descriptions: "Freshly baked pizza with self raising flour dough, mozzarella cheese, tomato sauce, peperoni and fresh herbs at the end"
+    },
+    {
+        _id: 5,
+        name: "Pizza Vegiterian",
+        category: "Pizza",
+        image: PV,
+        price_regular: 5.99,
+        price_medium: 7.99,
+        price_large: 11.99,
+        descriptions: "Freshly baked pizza with self raising flour dough, mozzarella cheese, tomato sauce, mashrooms, basils and fresh herbs at the end"
+    },
+    {
+        _id: 6,
+        name: "Fried Chicken",
+        category: "Chicken/Fries",
+        image: FC,
+        price_individual: 5.99,
+        price_menu: 9.99,
+        descriptions_individual: "Freshly marinated fried chicken with crispy beradcrumbs and salty butter",
+        descriptions_menu: "Individual + fries + drinks"
+    },
+    {
+        _id: 7,
+        name: "French Fries",
+        category: "Fries",
+        image: FF,
+        price_individual: 2.99,
+        price_menu: 3.99,
+        descriptions_individual: "Freshly marinated fried potatoes with fresh herbs at the end",
+        descriptions_menu: "Individual + drinks"
+    },
+    {
+        _id: 8,
+        name: "Chicken Burger",
+        category: "Burger/Meal",
+        image: CB,
+        price_individual: 5.99, 
+        price_menu: 9.99,
+        descriptions_individual: "Fresh bread bun with freshly fried chicken, red onions, cheese slice with mustard and fresh herbs at the end",
+        descriptions_menu: "Individual + fries + drinks"
+    }
+]
+

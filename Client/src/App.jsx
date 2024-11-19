@@ -6,6 +6,7 @@ import Cart from './pages/Cart'
 import Order from './pages/Order'
 
 const App = () => {
+  
   return (
     <div className='app'>
       <Navbar />
