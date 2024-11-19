@@ -3,6 +3,18 @@ import search from './search_icon.png'
 import basket from './basket_icon.png'
 import header_background from './header_image.png'
 import likes from './likes.png'
+import add_icon_white from './add_icon_white.png'
+import add_icon_green from './add_icon_green.png'
+import remove_icon_red from './remove_icon_red.png'
+import bag_icon from './bag_icon.png'
+import facebook_icon from './facebook_icon.png'
+import twitter_icon from './twitter_icon.png'
+import linkedin_icon from './linkedin_icon.png'
+import play_store from './play_store.png'
+import profile_icon from './profile_icon.png'
+import logout_icon from './logout_icon.png'
+import selector_icon from './selector_icon.png'
+import cross_icon from './cross_icon.png'
 
 import menu_two from './cattwo.png'
 import menu_three from './catthree.png'
@@ -24,7 +36,19 @@ export const assets = {
     search,
     basket,
     header_background,
-    likes
+    likes,
+    add_icon_white,
+    add_icon_green,
+    remove_icon_red,
+    bag_icon,
+    facebook_icon,
+    twitter_icon,
+    linkedin_icon,
+    play_store,
+    profile_icon,
+    logout_icon,
+    selector_icon,
+    cross_icon
 }
 
 export const menu_items = [
