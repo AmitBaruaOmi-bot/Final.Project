@@ -20,7 +20,7 @@ const StoreContextProvider = (props) => {
         setCartItems((prev)=>({...prev, [itemId]: prev[itemId]-1}))
     }
 
-    useEffect(()=>{}, [cartItems])
+    useEffect(()=>{cartItems}, [cartItems])
 
     const contextValue = {
         food_list,

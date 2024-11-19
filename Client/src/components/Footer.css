@@ -47,3 +47,14 @@
     border: none;
 }
 
+@media (max-width: 750px){
+    .footer-content{
+        display: none;
+        flex-direction: column;
+        grid-auto-flow: 35px;
+    }
+
+    .footer-copyright{
+        text-align: center;
+    }
+}
