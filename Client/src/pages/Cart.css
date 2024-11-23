@@ -48,3 +48,56 @@
     color: #49557e;
 }
 
+.cart-total hr{
+    margin: 10px 0px;
+}
+
+.cart-total button{
+    border: none;
+    color: #49557e;
+    background-color: hsl(140, 65%, 55%);
+    padding: 12px 0px;
+    width: max(15vw, 200px);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.promocode{
+    flex: 1;
+}
+
+.promocode p{
+    color: #49557e;
+}
+
+.promocode-imput{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.promocode-imput input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.promocode-imput button{
+    width: max(10vw, 150px);
+    padding: 12px 5px;
+    background-color: hsl(140, 65%, 55%);
+    border: none;
+    color: #49557e;
+    border-radius: 4px;
+}
+
+@media (max-width: 750px){
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    .promocode{
+        justify-content: start;
+    }
+}

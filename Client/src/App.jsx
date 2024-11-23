@@ -6,6 +6,7 @@ import Cart from './pages/Cart'
 import Order from './pages/Order'
 import Footer from './components/Footer'
 import Login from './components/Login'
+import { useState } from'react'
 
 const App = () => {
 
