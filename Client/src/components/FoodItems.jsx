@@ -18,13 +18,8 @@ const FoodItems = ({ category }) => {
               id={item._id}
               name={item.name}
               image={item.image}
-              price_individual={item.price_individual}
-              price_menu={item.price_menu}
-              price_regular={item.price_regular}
-              price_medium={item.price_medium}
-              price_large={item.price_large}
-              descriptions_individual={item.descriptions_individual}
-              descriptions_menu={item.descriptions_menu}
+              price={item.price}
+              descriptions={item.descriptions}
             />
           }
         })}

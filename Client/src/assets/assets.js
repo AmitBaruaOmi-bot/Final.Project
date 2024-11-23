@@ -77,7 +77,7 @@ export const food_list = [
         name: "Ceaser Salad",
         category: "Salad",
         image: CS,
-        price:  3.99,
+        price: 3.99,
         descriptions: "Lettuce and greens mixed with bread crumbs and salad ranch"
     },
     {
@@ -85,19 +85,16 @@ export const food_list = [
         name: "Chicken Sandwich",
         category: "Meal",
         image: CSW,
-        price_individual: 4.99,
-        price_menu: 7.99,
-        descriptions_individual: "Bread with chicken crumbles, tomato, lettuce and mayonese",
-        descriptions_menu: "Individual + Fries and drinks"
+        price: 4.99,
+        price: 7.99,
+        descriptions: "Bread with chicken crumbles, tomato, lettuce and mayonese"
     },
     {
         _id: 3,
         name: "Pizza Margarita",
         category: "Pizza",
         image: PM,
-        price_regular: 5.99,
-        price_medium: 7.99,
-        price_large: 11.99,
+        price: 5.99,
         descriptions: "Freshly baked pizza with self raising flour dough, mozzarella cheese, gorgonzola cheese, tomato sauce and fresh herbs at the end"
     },
     {
@@ -105,9 +102,7 @@ export const food_list = [
         name: "Pizza Peperoni",
         category: "Pizza",
         image: PP,
-        price_regular: 5.99,
-        price_medium: 7.99,
-        price_large: 11.99,
+        price: 5.99,
         descriptions: "Freshly baked pizza with self raising flour dough, mozzarella cheese, tomato sauce, peperoni and fresh herbs at the end"
     },
     {
@@ -115,9 +110,7 @@ export const food_list = [
         name: "Pizza Vegiterian",
         category: "Pizza",
         image: PV,
-        price_regular: 5.99,
-        price_medium: 7.99,
-        price_large: 11.99,
+        price: 5.99,
         descriptions: "Freshly baked pizza with self raising flour dough, mozzarella cheese, tomato sauce, mashrooms, basils and fresh herbs at the end"
     },
     {
@@ -125,30 +118,25 @@ export const food_list = [
         name: "Fried Chicken",
         category: "Chicken/Fries",
         image: FC,
-        price_individual: 5.99,
-        price_menu: 9.99,
-        descriptions_individual: "Freshly marinated fried chicken with crispy beradcrumbs and salty butter",
-        descriptions_menu: "Individual + fries + drinks"
+        price: 5.99,
+        descriptions: "Freshly marinated fried chicken with crispy beradcrumbs and salty butter"
     },
     {
         _id: 7,
         name: "French Fries",
         category: "Fries",
         image: FF,
-        price_individual: 2.99,
-        price_menu: 3.99,
-        descriptions_individual: "Freshly marinated fried potatoes with fresh herbs at the end",
-        descriptions_menu: "Individual + drinks"
+        price: 2.99,
+        price: 3.99,
+        descriptions: "Freshly marinated fried potatoes with fresh herbs at the end"
     },
     {
         _id: 8,
         name: "Chicken Burger",
         category: "Burger/Meal",
         image: CB,
-        price_individual: 5.99, 
-        price_menu: 9.99,
-        descriptions_individual: "Fresh bread bun with freshly fried chicken, red onions, cheese slice with mustard and fresh herbs at the end",
-        descriptions_menu: "Individual + fries + drinks"
+        price: 5.99, 
+        descriptions: "Fresh bread bun with freshly fried chicken, red onions, cheese slice with mustard and fresh herbs at the end"
     }
 ]
 
